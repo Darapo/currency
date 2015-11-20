@@ -15,6 +15,7 @@
 		14BE71171BFEFF7400632AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BE71151BFEFF7400632AA3 /* LaunchScreen.storyboard */; };
 		14BE71221BFEFF7400632AA3 /* ChangeCurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BE71211BFEFF7400632AA3 /* ChangeCurrencyTests.m */; };
 		14BE712D1BFEFF7400632AA3 /* ChangeCurrencyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BE712C1BFEFF7400632AA3 /* ChangeCurrencyUITests.m */; };
+		14BE713C1BFF027400632AA3 /* ChangeCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BE713B1BFF027400632AA3 /* ChangeCurrency.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		14BE71281BFEFF7400632AA3 /* ChangeCurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeCurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BE712C1BFEFF7400632AA3 /* ChangeCurrencyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCurrencyUITests.m; sourceTree = "<group>"; };
 		14BE712E1BFEFF7400632AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BE713A1BFF027400632AA3 /* ChangeCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeCurrency.h; sourceTree = "<group>"; };
+		14BE713B1BFF027400632AA3 /* ChangeCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeCurrency.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				14BE71151BFEFF7400632AA3 /* LaunchScreen.storyboard */,
 				14BE71181BFEFF7400632AA3 /* Info.plist */,
 				14BE71071BFEFF7300632AA3 /* Supporting Files */,
+				14BE713A1BFF027400632AA3 /* ChangeCurrency.h */,
+				14BE713B1BFF027400632AA3 /* ChangeCurrency.m */,
 			);
 			path = ChangeCurrency;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BE713C1BFF027400632AA3 /* ChangeCurrency.m in Sources */,
 				14BE710F1BFEFF7300632AA3 /* ViewController.m in Sources */,
 				14BE710C1BFEFF7300632AA3 /* AppDelegate.m in Sources */,
 				14BE71091BFEFF7300632AA3 /* main.m in Sources */,
